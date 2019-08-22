@@ -1,0 +1,68 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+}
+
+body{
+    background: radial-gradient(white, blue);
+}
+
+.container{
+    width: 300px;
+    margin: 50px auto;
+    border: solid 3px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+    align-content: center;
+}
+
+.header{
+    width: 100%;
+    text-align: center;
+    height: 50px;
+
+}
+
+
+input[type="checkbox"]{
+    float: right;
+    position: relative;
+    overflow: hidden;
+    width: 20px;
+}
+
+input[type="checkbox"]:checked + label {
+    text-decoration: line-through;
+}
+
+input{
+    height: 20px;
+    border: solid 2px black;
+    margin-bottom: 10px;
+}
+
+button{
+    width: 200px;
+    height: 30px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    align-items: center;
+    background-color: blueviolet;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: yellow;
+}
+
+li{
+    margin-bottom: 15px;
+}
+
+
+
